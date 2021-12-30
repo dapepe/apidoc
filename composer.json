@@ -1,0 +1,20 @@
+{
+  "name": "dapepe/apidoc",
+  "description": "Easy API documentation with Markdown and API Blueprint",
+  "license": "GPL",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "authors": [
+	{
+      "name": "Peter Haider",
+      "email": "peter.haider@zeyos.com",
+      "homepage": "https://www.about.me/peterhaider"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Apidoc\\": "src/"
+    }
+  }
+}
